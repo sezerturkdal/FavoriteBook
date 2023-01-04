@@ -9,13 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List{
+            ForEach(myFavorites){favorite in
+                Section(header: Text(favorite.title)) {
+                    ForEach(favorite.elements){element in
+                        Text(element.name)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
