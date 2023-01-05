@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50633432967609E00E5EB06 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50633422967609E00E5EB06 /* DetailsView.swift */; };
 		E5468A4C2966088C00EAC5BF /* FavoriteBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5468A4B2966088C00EAC5BF /* FavoriteBookApp.swift */; };
 		E5468A4E2966088C00EAC5BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5468A4D2966088C00EAC5BF /* ContentView.swift */; };
 		E5468A502966089100EAC5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5468A4F2966089100EAC5BF /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E50633422967609E00E5EB06 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		E5468A482966088C00EAC5BF /* FavoriteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5468A4B2966088C00EAC5BF /* FavoriteBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteBookApp.swift; sourceTree = "<group>"; };
 		E5468A4D2966088C00EAC5BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				E5468A4B2966088C00EAC5BF /* FavoriteBookApp.swift */,
 				E5468A4D2966088C00EAC5BF /* ContentView.swift */,
+				E50633422967609E00E5EB06 /* DetailsView.swift */,
 				E5468A592966092000EAC5BF /* FavoriteModel.swift */,
 				E5468A4F2966089100EAC5BF /* Assets.xcassets */,
 				E5468A512966089100EAC5BF /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5468A5A2966092000EAC5BF /* FavoriteModel.swift in Sources */,
+				E50633432967609E00E5EB06 /* DetailsView.swift in Sources */,
 				E5468A4E2966088C00EAC5BF /* ContentView.swift in Sources */,
 				E5468A4C2966088C00EAC5BF /* FavoriteBookApp.swift in Sources */,
 			);
